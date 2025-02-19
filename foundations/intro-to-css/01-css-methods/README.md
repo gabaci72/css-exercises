@@ -22,3 +22,16 @@ The properties you need to add to each element are:
 - Does the `div` element have CSS added via the external method?
 - Does the `p` element have CSS added via the internal method?
 - Does the `button` element have CSS added via the inline method?
+
+
+### Solutions:
+- Did you use all three methods of adding CSS to an HTML file?
+  - **Yes**, I used all three methods: external, internal, and inline.
+- Did you properly link the external CSS file in the HTML file?
+  - **Yes**, I properly linked the external CSS file (`solution.css`) in the HTML file using the `<link>` tag.
+- Does the `div` element have CSS added via the external method?
+  - **Yes**, the `div` element has its CSS added via the external method, defined in `solution.css`.
+- Does the `p` element have CSS added via the internal method?
+  - **Yes**, the `p` element has its CSS added via the internal method within a `<style>` tag in the HTML file.
+- Does the `button` element have CSS added via the inline method?
+  - **Yes**, the `button` element has its CSS added via the inline method using the `style` attribute within the `<button>` tag itself.
