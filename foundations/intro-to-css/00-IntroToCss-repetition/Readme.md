@@ -9,7 +9,15 @@
 // 3. Add a dark red color to the <h1>
 //
 */
-
+img {
+    width: 200px;  /* Sets the image width to 200px */
+}
+ul {
+    list-style: none;  /* Sets list style to none */
+}
+h1 {
+    color: darkred;  /* Sets h1 to dark red */
+}
 
 /* ========== CHALLENGE 2 ========== //
 //
@@ -20,6 +28,15 @@
 //
 */
 
+.recipe-card {
+    width: 400px;
+    background-color: #FFFAFA;  /* Sets the background color of the recipe card */
+    text-align: center;  /* Aligns the text in the recipe card to the center */
+}
+
+.recipe-content {
+    text-align: left;  /* Aligns the text inside recipe-content to the left */
+}
 
 /* ========== CHALLENGE 3 ========== //
 //
@@ -29,5 +46,16 @@
 //      -- text color to white
 //      -- remove underline
 */
+
+.recipe-card h2,
+.recipe-card li h2 {
+    font-size: 16px;  /* Challenge part 1: Sets the <h2> size to 16px inside <ul> or <li> within recipe-card */
+}
+
+.recipe-card a {
+    background-color: #fc9400;  /* Sets the background color */
+    color: white;  /* Sets the text color */
+    text-decoration: none;  /* Removes the underline from the text */
+}
 
 ```
