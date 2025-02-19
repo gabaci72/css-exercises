@@ -14,6 +14,13 @@ This will help you further practice adding classes and using class selectors, so
 
 ### Self Check
 
-- Does each element have a unique class name?
-- Did you use the grouping selector for styles that both elements share?
+- Does each element have a unique class name? 
+Yes, each element has a unique class name: "inverted" and "fancy".
+
+
+- Did you use the grouping selector for styles that both elements share? 
+Yes, I used the grouping selector to apply styles that both elements share, 
+such as `font-family` and `font-size`.
+
 - Did you make separate rules for the styles unique to each element?
+Yes, I made separate rules for the styles unique to each element, such as
