@@ -60,11 +60,38 @@
 }
 
 /* rule 5.1 */
-* { /* This rule is less specific than rule 5.2 */
+* {
+    /* This rule is less specific than rule 5.2 */
     color: black;
 }
 
 /* rule 5.2 */
-h1 { /* This rule is more specific than rule 5.1 */
+h1 {
+    /* This rule is more specific than rule 5.1 */
     color: orange;
+}
+
+/* rule 6.1 */
+
+#parent {
+    /* This rule is less specific than rule 6.2 */
+    color: red;
+}
+
+/* rule 6.2 */
+.child {
+    /* This rule is more specific than rule 6.1 */
+    color: blue;
+}
+
+/* rule 7.1 */
+
+
+.alert { /* This rule is less specific than rule 7.2 */
+    color: red;
+}
+
+/* rule 7.2 */
+.warning { /* This rule is more specific than rule 7.1 */
+    color: yellow;
 }
