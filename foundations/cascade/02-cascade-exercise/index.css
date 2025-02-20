@@ -1,0 +1,70 @@
+/* rule 0.1 */
+.subsection {
+    /* This rule is less specific than rule 0.2 */
+    color: blue;
+}
+
+/* rule 0.2 */
+.main .list {
+    /* This rule is more specific than rule 0.1 */
+    color: red;
+}
+
+/* rule 1.1 */
+#subsection2 {
+    /* This rule is less specific than rule 1.2 */
+    color: blue;
+}
+
+/* rule 1.2 */
+.main2 .list2 {
+    /* This rule is more specific than rule 1.1 */
+    color: red;
+}
+
+/* rule 2.1 */
+#subsection3 {
+    /* This rule is less specific than rule 2.2 */
+    background-color: yellow;
+    color: blue;
+}
+
+/* rule 2.2 */
+.main3 #subsection3 {
+    /* This rule is more specific than rule 2.1 */
+    color: red;
+}
+
+/* rule 3.1 */
+.class.second-class {
+    /* This rule is less specific than rule 3.2 */
+    font-size: 12px;
+}
+
+/* rule 3.2 */
+.class .second-class {
+    /* This rule is more specific than rule 3.1 */
+    font-size: 24px;
+}
+
+/* rule 4.1 */
+.class.second-class {
+    /* This rule is less specific than rule 4.2 */
+    font-size: 12px;
+}
+
+/* rule 4.2 */
+.class>.second-class {
+    /* This rule is more specific than rule 4.1 */
+    font-size: 24px;
+}
+
+/* rule 5.1 */
+* { /* This rule is less specific than rule 5.2 */
+    color: black;
+}
+
+/* rule 5.2 */
+h1 { /* This rule is more specific than rule 5.1 */
+    color: orange;
+}

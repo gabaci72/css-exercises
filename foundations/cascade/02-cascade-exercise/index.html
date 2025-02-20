@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fix the Cascade</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+<!-- rule 0 -->
+
+<div class="main">
+    <div class="list subsection">Red text</div>
+</div>
+<!-- rule 1 -->
+<div class="main2">
+    <div class="list2" id="subsection2">Blue text</div>
+</div>
+<!-- rule 2 -->
+<div class="main3">
+    <div class="list3" id="subsection3">Red text on yellow background</div>
+</div>
+<!-- rule 3 -->
+<div class="class">
+  <div class="second-class">
+     This text size is 24px.
+  </div>
+<!-- rule 4 -->
+ <div class="class second-class">
+  Rule 4.1 - This rule is less specific than rule 4.2. (Normal text size 12px but it is now 24px)
+</div>
+<div class="class">
+  <div class="second-class">
+    Rule 4.2 - This rule is more specific than rule 4.1. (Normal text size 24px)
+  </div>
+</div>
+<!-- rule 5 -->
+ <h1>This is a Header</h1>
+<p>This is a Paragraph</p>
+</div>
+</body>
+
+</html>
