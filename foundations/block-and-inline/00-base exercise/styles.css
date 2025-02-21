@@ -1,0 +1,28 @@
+* {
+    outline: 2px solid red;
+}
+
+/* styles.css */
+
+/* Block elements */
+h1, p, div, ul, li, table, tr, td, form, header, footer, nav, section, article, aside, main, h1, h2, h3, h4, h5, h6 {
+    display: block;
+    margin: 10px 0; /* Adding some margin for better visualization */
+    padding: 10px;
+    border: 1px solid #ccc; /* Adding a border to visualize the block elements */
+}
+
+/* Inline elements */
+strong, em, a, img, span, button {
+    display: inline;
+    padding: 5px;
+    border: 1px solid #f00; /* Adding a border to visualize the inline elements */
+}
+
+/* Inline-block elements */
+img {
+    display: inline-block;
+    width: 100px; /* Example width for visualization */
+    height: 100px; /* Example height for visualization */
+    border: 1px solid #00f; /* Adding a border to visualize the inline-block elements */
+}
