@@ -1,0 +1,27 @@
+* {
+    outline: 2px solid red;
+    box-sizing: border-box; /* This ensures padding and border are included in the element's total width and height */
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+    border: 5px solid #2980b9;
+    padding: 20px;
+    margin: 30px;
+}
+
+.default-box {
+    background-color: #e74c3c;
+}
+
+.content-box {
+    box-sizing: content-box; /* Default box-sizing value */
+    background-color: #e74c3c;
+}
+
+.border-box {
+    box-sizing: border-box; /* This is the default value for all elements */
+    background-color: #2ecc71;
+}
