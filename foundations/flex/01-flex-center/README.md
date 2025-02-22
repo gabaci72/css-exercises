@@ -10,3 +10,11 @@ All you need to do is center the red div inside the blue container.
 - Is the red div centered?
 - Did you _only_ use flexbox to center it?
 
+### Solutions:
+```css
+.container {
+      display: flex; /* Enable flexbox on the .container */
+      align-items: center; /* Center the child element vertically */
+      justify-content: center; /* Center the child element horizontally */
+           }   
+```

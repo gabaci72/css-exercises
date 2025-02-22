@@ -49,7 +49,7 @@ If you have suggestions to improve an exercise, ideas for a new exercise, or not
 - [x] [Css Box Model]
 - [X] [Css Cascade]
 - [ ] [Css Flex]
-- [ ] [Css Flex-center]
+- [X] [Css Flex-center]
 - [ ] [Css Flex-header]
 - [ ] [Css Flex-information]
 - [ ] [Css Flex-modal]
